@@ -1,1 +1,117 @@
-
+    *{
+      font-family: 'Roboto', sans-serif;
+    }
+    .form{
+      display: block;
+      border: 3px #649aff solid;
+      border-radius: 15px;
+      padding: 0;   
+      width: 100%; 
+      box-sizing: border-box;
+    }
+    .header{
+      display: block;
+      position: relative;
+      background-color: #649aff;
+      text-align: center;
+      color: white;
+      border: none;
+      height: 65px;
+      padding: 10px;
+    }
+    .header_name{
+      color: white;
+      display: inline-block;
+      margin: 0;
+      font-size: 40px;
+      box-sizing: content-box;
+      vertical-align: middle;
+    }
+    img{
+      width: 50px;
+      height: 50px;
+      margin: 0 10px;
+      vertical-align: middle;
+    }
+    .name, .sms, .email, .tel{
+      display: block;
+      position: relative;
+      margin: 20px;
+    }
+    p{
+      font-weight: 600;
+      font-size: 24px;
+      margin: 0 0 10px 20px;
+      color: #717c84;
+    }
+    input{
+      width: 100%;
+      height: 60px;
+      font-size: 18px;
+      border-radius: 10px;
+      border: 2px #a8a8a8 solid;
+      padding: 0 0 0 45px;
+      box-sizing: border-box;
+    }
+    .name_image{
+      background: url(https://raw.githubusercontent.com/Kristina-Ostrovskaya/For-learning/main/face.png) no-repeat left;
+      background-size: 40px;
+    }
+    .email_image{
+      background: url(https://raw.githubusercontent.com/Kristina-Ostrovskaya/For-learning/main/latter.png) no-repeat left;
+      background-size: 40px;
+    }
+    .tel_image{
+      background: url(https://raw.githubusercontent.com/Kristina-Ostrovskaya/For-learning/main/mobile.png) no-repeat left;
+      background-size: 40px;
+    }
+    .sms_image{
+      background: url(https://raw.githubusercontent.com/Kristina-Ostrovskaya/For-learning/main/pan.png) top left no-repeat;
+      background-size: 40px;
+    }
+    input::placeholder{
+      font-weight: 400;
+      color: #85817f;
+    }
+    textarea::placeholder{
+      padding: 0 0 0 45px;
+    }
+    textarea{
+      width: 100%;
+      height: 30%;
+      padding: 10px 0;
+      resize: vertical;
+      font-size: 18px;
+      border-radius: 10px;
+      border: 2px #a8a8a8 solid;
+    }
+    textarea:focus{
+      padding: 10px 0 0;
+      font-size: 18px;
+    }
+    .name_input, .sms_input, .email_input, .tel_input{
+      margin: 10px 0;
+      padding: 0;
+    }
+    .button{
+      text-align: center;
+    }
+    input:focus, textarea:focus{
+      border-radius: 10px;
+      border: 2px solid #649aff;
+      color: black;
+      outline: 0;
+    }
+    button{
+      background-color: #649aff;
+      border-radius: 5px;
+      border: none;
+      margin: 10px 0;
+      width: 300px;
+      height: 50px;
+    }
+    .button_submite{
+      color: white;
+      text-align: center;
+      margin: 0;
+    }
